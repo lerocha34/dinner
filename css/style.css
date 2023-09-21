@@ -18,6 +18,7 @@
 body{
     background-color:var(--black);
     margin:0;
+    margin-left:0.625rem;
 }
 ul{
     margin:0;
@@ -54,7 +55,7 @@ header{
     font-size:0.9375rem;
 }
 
-nav{
+.mobile{
     display:flex;
     justify-content:flex-end
 }
@@ -76,6 +77,7 @@ nav{
     width:50%;
     height:3px;
     margin: auto;
+    
     
 }
 
@@ -100,17 +102,129 @@ nav{
     margin-bottom:1.875rem;
     
 }
-.buttons-area li{
+
+
+.mobile .buttons-area li{
     background-color:var(--grey);
     padding:1.5625rem;
     margin-bottom:0.3125rem;
 
 }
 
-.buttons-area li a{
+.mobile .buttons-area li a{
     color:var(--black);
     text-transform:uppercase;
     font-size:1.25rem;
     
     
+}
+
+
+.desktop{
+margin-top:60px;
+margin-bottom:40px;
+
+
+}
+
+
+.menu-desktop-area{
+    margin:auto;
+    display:none;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.menu-desktop .buttons-area li{
+    display: inline;
+    padding:10px;
+    margin:40px;
+    
+
+}
+
+.menu-desktop .buttons-area li:hover{
+    border-top: 3px solid var(--greyBlue)
+    
+}
+
+.menu-desktop .buttons-area a:hover li{
+    color: var(--greyBlue);
+}
+
+.menu-desktop-area .login{
+    margin-left:auto;
+}
+
+.menu-desktop-area .login:hover a{
+    color:var(--lightBlack);
+}
+
+
+
+
+
+
+
+
+footer{
+    border-top:1px solid var(--grey);
+    padding-top:25px;
+}
+
+.oppenning-area-title,
+.contact-title,
+.find-us-title{
+    width:fit-content;
+    text-transform: uppercase;
+    font-size:25px;
+    color: var(--grey);
+    border-bottom:1px solid var(--greyBlue);
+    font-weight: 700;
+    margin-bottom:1.5625rem;
+    padding-bottom:0.3125rem;
+}
+
+.oppening-area ul li{
+    margin-bottom:0.625rem;
+}
+
+.contact-title,
+.find-us-title{
+    margin-top:3.125rem;
+}
+.contact-adress{
+    margin-bottom:3.75rem;
+}
+
+.social-media{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.credits{
+    font-size:15px;
+    margin-top:20px;
+    text-align:center;
+}
+.credits a{
+    text-decoration:underline;
+    color:var(--lightGrey)
+}
+
+
+
+
+
+
+
+@media (min-width:1023px){
+    .mobile{
+        display:none;
+    }
+    .menu-desktop-area{
+        display:flex;
+    }
 }
