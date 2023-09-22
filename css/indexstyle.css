@@ -1,0 +1,59 @@
+
+.banner {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.gallery {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.item {
+    width: 100%;
+    height: auto;
+}
+
+.gallery-wrapper {
+    overflow: hidden;
+    margin: 0;
+}
+
+.index-titles{
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-top:40px;
+    margin-bottom:10px;
+}
+
+.index-images{
+    width:90%;
+    margin-bottom:15px;
+}
+
+.index-paragraphs{
+    line-height: 20px;
+    margin-bottom:15px;
+}
+.read-more a{
+    color:var(--greyBlue);
+    margin-bottom: 5px;
+}
+
+section .happy-hour{
+    width:90%;
+    height:248px;
+    background-color:var(--lightGrey);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+.happy-hour span{
+    font-size:30px;
+    text-align:center;
+    margin-bottom:10px;
+}

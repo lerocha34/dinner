@@ -197,12 +197,15 @@ footer{
 .contact-adress{
     margin-bottom:3.75rem;
 }
-
+.findus-area .google-map iframe{
+   width:95vw;
+}
 .social-media{
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
+    margin-top:20px;
 }
 .credits{
     font-size:15px;
