@@ -230,4 +230,8 @@ footer{
     .menu-desktop-area{
         display:flex;
     }
+
+    .title-great-area{
+        margin-top:30px;
+    }
 }

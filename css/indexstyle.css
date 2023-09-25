@@ -6,6 +6,7 @@
     position: relative;
 }
 
+
 .gallery {
     display: flex;
     transition: transform 0.5s ease;
@@ -16,10 +17,13 @@
     height: auto;
 }
 
+
+
 .gallery-wrapper {
     overflow: hidden;
     margin: 0;
 }
+
 
 .index-titles{
     text-transform: capitalize;
@@ -101,4 +105,36 @@ form input[type = "submit"]{
 }
 option{
     background-color:black;
+}
+
+@media (min-width:1023px){
+    .banner {
+        width: 75%;
+        height:65vh;
+    
+    }
+
+    .item{
+        object-fit: fill;
+    }
+
+    main{
+        display:flex;
+        flex-direction:column;
+    }
+    .sections-area{
+        display:flex;
+    }
+    .reserve-area{
+        border-top:1px solid var(--grey);
+        padding-top:30px;
+    }
+    .happy-hour-area{
+        border:none;
+    }
+
+    section .happy-hour{
+        height:205px;
+        margin-bottom:10px;
+    }
 }
