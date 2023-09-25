@@ -103,7 +103,7 @@
         <div class="read-more"><a href="">Leia Mais</a></div>
     </section>
 
-    <section>
+    <section class="happy-hour-area">
         <div class="index-titles">Happy Hour</div>
         <div class="happy-hour">
             <span>Dias de Semana</span>
@@ -113,7 +113,28 @@
         
     </section>
 
+    <section class="reserve-area">
+        <div class="reserve-title">Faça uma Reserva</div>
+        <form method="POST">
+            <div>Número de Pessoas</div>
+            <select>
+                <option>1 Pessoa</option>
+                <option>2 Pessoa</option>
+                <option>3 Pessoa</option>
+                <option>4 Pessoa</option>
+                <option>5 Pessoa</option>
+                <option>6 Pessoa</option>
+            </select>
 
+            <div>Data</div>
+            <input type="date">
+
+            <div>Horário</div>
+            <input type="time" id="horario" name="horario" min="10:00" max="22:00" step="900">
+            <input type="submit" value="Reservar Horário">
+
+        </form>
+    </section>
 
 
 
