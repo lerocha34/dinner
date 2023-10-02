@@ -1,0 +1,87 @@
+.image-area img{
+    width:95vw;
+    margin-bottom:20px;
+}
+
+.text-area .title,
+.formulary .title{
+    text-transform: uppercase;
+    font-size:25px;
+    margin-bottom:20px;
+}
+
+.text-area .text, .formulary .subtitle{
+    line-height:25px;
+    margin-bottom:25px;
+}
+
+.little-bar{
+    width:40px;
+    height:1px;
+    background-color:var(--grey);
+    margin-bottom:25px;
+}
+
+.data{
+    display:flex;
+    flex-direction:column;
+}
+
+.data input{
+    width:95vw;
+    height:40px;
+   margin-bottom:10px;
+}
+
+textarea{
+    width:95vw;
+    height:150px;
+    resize:none;
+}
+.submit{
+    display:flex;
+    flex-direction:row-reverse;
+    width:95vw;
+}
+.submit input{
+    height:40px;
+    width:35vw;
+    background-color:var(--grey);
+    margin-top: 10px;
+    color: var(--greyBlue);
+    margin-bottom:25px;
+}
+
+@media (min-width:1023px){
+    main{
+        display:flex;
+
+    }
+    .image-area img{
+        width:55vw;
+        height:auto;
+        margin-right:20px;
+    }
+
+    .mobile-text-area{
+        display:flex;
+        flex-direction:column;
+        width:40vw;
+    }
+
+    .text-area .text{
+        text-align:justify;
+        font-size:15px;
+    }
+
+    .data input, textarea{
+        width:40vw;
+    }
+    .submit{
+        width:100%;
+    }
+    .submit input{
+        width:100px;
+    }
+
+}
